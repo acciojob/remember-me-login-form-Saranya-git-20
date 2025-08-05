@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check if credentials exist in localStorage
   const savedUsername = localStorage.getItem("savedUsername");
   const savedPassword = localStorage.getItem("savedPassword");
-
   if (savedUsername && savedPassword) {
     existingBtn.style.display = "inline-block";
   }
